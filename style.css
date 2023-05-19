@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.hero {
+  background: #ae1332;
+}
+.hero-container {
+  max-width: 374px;
+}
+@media screen and (min-width: 375px) and(max-width:767px) {
+  .hero-container {
+    width: 375px;
+  }
+}
+.hero-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+
+  color: #ffffff;
+
+  /* text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1); */
+}
+.hero-btn {
+}
+.hero-cards {
+}
+.card-text {
+}
+.top-card {
+}
+.top-card-text {
+}
+.hero-img {
+}
+.low-card-text {
+}
+.tag-list {
+}
+.tags {
+}
+.hero-teg {
+}
+
+.low-card {
+}
